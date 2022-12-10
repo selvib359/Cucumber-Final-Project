@@ -1,0 +1,145 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2750489801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1 User should be able to change the background color to skyblue",
+        "description": "",
+        "id": "sky-blueground-functionality;1-user-should-be-able-to-change-the-background-color-to-skyblue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 510623201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set Skyblue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set Skyblue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "BackgroundStepDefinition.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3067039000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button as \"Set Skyblue Background\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set Skyblue Background",
+                  "offset": 26
+                }
+              ],
+              "location": "BackgroundStepDefinition.i_click_on_the_button_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3048867400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "BackgroundStepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1487470100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "2 User should be able to change the background color to white",
+        "description": "",
+        "id": "sky-blueground-functionality;2-user-should-be-able-to-change-the-background-color-to-white",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "\"Set SkyWhite Background\" button exixts",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on the button as \"Set White Background\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set White Background",
+                  "offset": 26
+                }
+              ],
+              "location": "BackgroundStepDefinition.i_click_on_the_button_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The backgroundcolor will change to white",
+            "match": {
+              "location": "BackgroundStepDefinition.the_backgroundcolor_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sky Blueground Functionality",
+    "description": "",
+    "id": "sky-blueground-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/SkyBlueColor.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Bluebackgroundpage"
+      }
+    ]
+  }
+]
